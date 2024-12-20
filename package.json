@@ -1,0 +1,33 @@
+{
+  "name": "blog-app-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Arpit Verma",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/app.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "rimraf dist"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "playwright": "^1.49.1",
+    "rimraf": "^6.0.1",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

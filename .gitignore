@@ -1,0 +1,50 @@
+# Node.js modules
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+*.log.*
+
+# Local environment variables
+.env
+.env.*.local
+
+# Jest cache and coverage reports
+jest-cache/
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Mac OS files
+.DS_Store
+
+# Typescript tsbuildinfo files
+*.tsbuildinfo
+
+# Optional npm debug files
+debug.log
+error.log
+
+# Hidden VS Code files
+.vscode/
+.vscode/*
+.*.sw?
