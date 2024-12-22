@@ -8,7 +8,7 @@ This repository implements a **scalable, modular, and robust backend architectur
 
 
 # Overview - Architecture
-![High Level Architecture](./assets/images/graphql-architecture.png)
+[![High Level Architecture](./assets/images/graphql-architecture.png)](https://www.tldraw.com/s/v2_c_qx-mOj0eTUEZlygczIeTj?d=v-400.-481.3721.1888.page)
 
 ## 📁 Folder Structure
 
