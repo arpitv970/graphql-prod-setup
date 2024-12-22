@@ -6,7 +6,6 @@ This repository implements a **scalable, modular, and robust backend architectur
 - **TypeScript** for type safety and maintainability.
 - A service-oriented, reusable structure to ensure scalability.
 
----
 
 # Overview - Architecture
 ![High Level Architecture](./assets/images/graphql-architecture.png)
@@ -38,8 +37,6 @@ src/
 └── app.ts                # Express server entry point
 ```
 
----
-
 ## 🚀 Features
 
 1. **GraphQL Gateway**:
@@ -63,29 +60,27 @@ src/
 6. **Error Handling**:
    - Centralized error handling with GraphQL extensions.
 
----
-
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-- Node.js >= 16.x
+- Node.js >= 18.x
 - npm or yarn
 - Docker (optional for containerization)
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url.git
-   cd your-repo-name
+   git clone https://github.com/arpitv970/graphql-prod-setup
+   cd graphql-prod-setup
    ```
 
 2. Install dependencies:
    ```bash
-   npm install
+   npm i
    ```
 
 3. Configure environment variables:
-   - Create a `.env` file in the root directory.
+   - Create a `.env` file in the root directory, by simply coping `.env.example`.
    - Add necessary variables like database connection strings, secret keys, etc.
 
 4. Start the development server:
@@ -93,15 +88,11 @@ src/
    npm run dev
    ```
 
----
-
 ## 🧩 Scripts
 
 - **Start development server**: `npm run dev`
 - **Build for production**: `npm run build`
 - **Run tests**: `npm run test`
-
----
 
 ## 📚 Example GraphQL Query
 
@@ -117,29 +108,17 @@ query {
 }
 ```
 
----
-
 ## 🏗️ Built With
 
 - [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL API Gateway
 - [Express.js](https://expressjs.com/) - Web framework for Node.js
 - [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
-- [DataLoader](https://github.com/graphql/dataloader) - Batching and caching for efficient database queries
+- [DataLoader](https://github.com/graphql/dataloader) - Batching and caching for efficient database queries (Not Integrated Yet)
 - [Prisma](https://www.prisma.io/) - ORM for database operations (optional)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## ❤️ Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
----
 
 ## 📧 Contact
 
