@@ -23,7 +23,7 @@ type Todo {
   id: ID!
   title: String!
   completed: Boolean
-  user: User!
+  userId: ID!
 }
 
 type Query {
