@@ -73,6 +73,11 @@ src/
    git clone https://github.com/arpitv970/graphql-prod-setup
    cd graphql-prod-setup
    ```
+   <-- OR -->
+   Clean duplicate repository:
+   ```
+   git clone --depth=1 https://github.com/arpitv970/graphql-prod-setup
+   ```
 
 2. Install dependencies:
    ```bash
